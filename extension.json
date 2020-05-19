@@ -1,0 +1,8 @@
+{
+    "identifier": "williamproffitt.Clojure",
+    "name": "Clojure Language Definition",
+    "vendor": "William Proffitt",
+    "description": "Provides the simple bare necessities for Clojure, like rainbow parentheses and quoted string highlighting.",
+    "version": "1.0",
+    "categories": ["languages"]
+}
