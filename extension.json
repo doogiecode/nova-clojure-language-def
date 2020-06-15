@@ -4,5 +4,6 @@
     "vendor": "William Proffitt",
     "description": "Provides the simple bare necessities for Clojure, like rainbow parentheses and quoted string highlighting.",
     "version": "1.0",
-    "categories": ["languages"]
+    "categories": ["languages"],
+    "bugs": "https://github.com/doogiecode/nova-clojure-language-def/issues"
 }
