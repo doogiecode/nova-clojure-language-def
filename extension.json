@@ -1,9 +1,10 @@
 {
     "identifier": "williamproffitt.Clojure",
-    "name": "Clojure Language Definition",
+    "name": "Clojure",
     "vendor": "William Proffitt",
-    "description": "Provides the simple bare necessities for Clojure, like rainbow parentheses and quoted string highlighting.",
+    "description": "Clojure syntax highlighting and basic code navigation",
     "version": "1.0",
     "categories": ["languages"],
-    "bugs": "https://github.com/doogiecode/nova-clojure-language-def/issues"
+    "bugs": "https://github.com/doogiecode/nova-clojure-language-def/issues",
+    "repository": "https://github.com/doogiecode/nova-clojure-language-def"
 }
