@@ -7,7 +7,7 @@
 	</meta>
 	
 	<detectors>
-		<extension priority="1.0">clj</extension>
+		<extension priority="1.0">clj,cljs,cljc,cljx,edn,boot</extension>
 	</detectors>
 
 	<comments>
