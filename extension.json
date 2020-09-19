@@ -1,10 +1,10 @@
 {
-    "identifier": "williamproffitt.Clojure",
-    "name": "Clojure",
-    "vendor": "William Proffitt",
-    "description": "Clojure syntax highlighting and basic code navigation",
-    "version": "1.0",
-    "categories": ["languages"],
-    "bugs": "https://github.com/doogiecode/nova-clojure-language-def/issues",
-    "repository": "https://github.com/doogiecode/nova-clojure-language-def"
+  "identifier": "williamproffitt.Clojure",
+  "name": "Clojure",
+  "vendor": "William Proffitt",
+  "description": "Clojure syntax highlighting and basic code navigation",
+  "version": "1.0",
+  "categories": ["languages"],
+  "bugs": "https://github.com/doogiecode/nova-clojure-language-def/issues",
+  "repository": "https://github.com/doogiecode/nova-clojure-language-def"
 }

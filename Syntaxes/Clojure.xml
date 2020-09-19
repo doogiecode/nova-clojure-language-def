@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<syntax name="clj">
+<syntax name="clojure">
 	<meta>
 		<name>Clojure</name>
 		<type>structured</type>
@@ -24,21 +24,18 @@
 		</multiline-->
 	</comments>
 
-    <brackets>
-        <pair open="{" close="}" />
-        <pair open="[" close="]" />
-        <pair open="(" close=")" />
-    </brackets>
+  <brackets>
+      <pair open="{" close="}" />
+      <pair open="[" close="]" />
+      <pair open="(" close=")" />
+  </brackets>
 
-    <surrounding-pairs>
-        <pair open="{" close="}" />
-        <pair open="[" close="]" />
-        <pair open="(" close=")" />
-        <pair open="&quot;" close="&quot;" />
-    </surrounding-pairs>
-
-
-
+  <surrounding-pairs>
+      <pair open="{" close="}" />
+      <pair open="[" close="]" />
+      <pair open="(" close=")" />
+      <pair open="&quot;" close="&quot;" />
+  </surrounding-pairs>
 
 	<scopes>
 		<include syntax="self" collection="keywords" />
