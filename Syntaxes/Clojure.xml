@@ -5,15 +5,15 @@
 		<type>structured</type>
 		<preferred-file-extension>clj</preferred-file-extension>
 	</meta>
-	
+
 	<detectors>
 		<extension priority="1.0">clj,cljs,cljc,cljx,edn,boot</extension>
 	</detectors>
 
 	<comments>
-		<!-- single>
-			<expression>\;</expression>
-		</single -->
+		<single>
+			<expression>;</expression>
+		</single>
 		<!--multiline>
 			<starts-with>
 				<expression>(comment</expression>
@@ -23,13 +23,13 @@
 			</ends-with>
 		</multiline-->
 	</comments>
-    
+
     <brackets>
         <pair open="{" close="}" />
         <pair open="[" close="]" />
         <pair open="(" close=")" />
     </brackets>
-	
+
     <surrounding-pairs>
         <pair open="{" close="}" />
         <pair open="[" close="]" />
@@ -37,20 +37,20 @@
         <pair open="&quot;" close="&quot;" />
     </surrounding-pairs>
 
-    
 
-	
+
+
 	<scopes>
 		<include syntax="self" collection="keywords" />
-		
+
 		<scope name="clojure.string.double-quoted">
 			<expression>(?:\b(b|r|u))?&quot;((?:[^&quot;\\]|\\.)*)(?:&quot;|$)</expression>
 			<capture number="1" name="clojure.string.double-quoted.prefix" />
 			<capture number="2" name="clojure.string.double-quoted.text" />
 		</scope>
 	</scopes>
-	
-	
+
+
 	<collections>
 		<collection name="keywords">
 			<scope name="clojure.keyword">
@@ -65,6 +65,6 @@
 				</strings>
 			</scope>
 		</collection>
-	
+
 	</collections>
 </syntax>
